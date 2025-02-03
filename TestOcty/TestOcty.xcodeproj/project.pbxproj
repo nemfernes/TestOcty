@@ -21,6 +21,10 @@
 		0A6F30272D511B5900E16E4B /* ListRatesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F30202D511B5900E16E4B /* ListRatesPresenter.swift */; };
 		0A6F30282D511B5900E16E4B /* ListRatesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F30212D511B5900E16E4B /* ListRatesRouter.swift */; };
 		0A6F302C2D511B6900E16E4B /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F302A2D511B6900E16E4B /* CurrencyTableViewCell.swift */; };
+		0A6F30622D51209600E16E4B /* DetailRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F305D2D51209600E16E4B /* DetailRatesViewController.swift */; };
+		0A6F30632D51209600E16E4B /* DetailRatesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F305A2D51209600E16E4B /* DetailRatesAssembly.swift */; };
+		0A6F30642D51209600E16E4B /* DetailRatesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F305B2D51209600E16E4B /* DetailRatesPresenter.swift */; };
+		0A6F30652D51209600E16E4B /* DetailRatesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F305C2D51209600E16E4B /* DetailRatesRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		0A6F30212D511B5900E16E4B /* ListRatesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRatesRouter.swift; sourceTree = "<group>"; };
 		0A6F30222D511B5900E16E4B /* ListRatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRatesViewController.swift; sourceTree = "<group>"; };
 		0A6F302A2D511B6900E16E4B /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		0A6F305A2D51209600E16E4B /* DetailRatesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRatesAssembly.swift; sourceTree = "<group>"; };
+		0A6F305B2D51209600E16E4B /* DetailRatesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRatesPresenter.swift; sourceTree = "<group>"; };
+		0A6F305C2D51209600E16E4B /* DetailRatesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRatesRouter.swift; sourceTree = "<group>"; };
+		0A6F305D2D51209600E16E4B /* DetailRatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRatesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -141,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				0A6F30292D511B5F00E16E4B /* ListRatesModule */,
+				0A6F30602D51209600E16E4B /* DetailRatesModule */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -148,11 +157,11 @@
 		0A6F30292D511B5F00E16E4B /* ListRatesModule */ = {
 			isa = PBXGroup;
 			children = (
+				0A6F302D2D511B7B00E16E4B /* Cell */,
 				0A6F301F2D511B5900E16E4B /* ListRatesAssembly.swift */,
 				0A6F30202D511B5900E16E4B /* ListRatesPresenter.swift */,
 				0A6F30212D511B5900E16E4B /* ListRatesRouter.swift */,
 				0A6F30222D511B5900E16E4B /* ListRatesViewController.swift */,
-				0A6F302D2D511B7B00E16E4B /* Cell */,
 			);
 			path = ListRatesModule;
 			sourceTree = "<group>";
@@ -180,6 +189,17 @@
 				0A6F30032D511AB300E16E4B /* UITableUICollectionCell.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		0A6F30602D51209600E16E4B /* DetailRatesModule */ = {
+			isa = PBXGroup;
+			children = (
+				0A6F305A2D51209600E16E4B /* DetailRatesAssembly.swift */,
+				0A6F305B2D51209600E16E4B /* DetailRatesPresenter.swift */,
+				0A6F305C2D51209600E16E4B /* DetailRatesRouter.swift */,
+				0A6F305D2D51209600E16E4B /* DetailRatesViewController.swift */,
+			);
+			path = DetailRatesModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,9 +353,13 @@
 				0A6F30092D511AC100E16E4B /* Designable.swift in Sources */,
 				0A6F302C2D511B6900E16E4B /* CurrencyTableViewCell.swift in Sources */,
 				0A6F300A2D511AC100E16E4B /* Reusable.swift in Sources */,
+				0A6F30622D51209600E16E4B /* DetailRatesViewController.swift in Sources */,
+				0A6F30632D51209600E16E4B /* DetailRatesAssembly.swift in Sources */,
+				0A6F30642D51209600E16E4B /* DetailRatesPresenter.swift in Sources */,
 				0A6F30252D511B5900E16E4B /* ListRatesViewController.swift in Sources */,
 				0A6F30262D511B5900E16E4B /* ListRatesAssembly.swift in Sources */,
 				0A6F30272D511B5900E16E4B /* ListRatesPresenter.swift in Sources */,
+				0A6F30652D51209600E16E4B /* DetailRatesRouter.swift in Sources */,
 				0A6F30282D511B5900E16E4B /* ListRatesRouter.swift in Sources */,
 				0A6F2FA52D50D2C000E16E4B /* AppDelegate.swift in Sources */,
 				0A6F2FA72D50D2C000E16E4B /* SceneDelegate.swift in Sources */,
