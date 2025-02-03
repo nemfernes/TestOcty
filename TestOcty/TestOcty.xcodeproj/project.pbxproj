@@ -53,11 +53,6 @@
 			path = TestOctyTests;
 			sourceTree = "<group>";
 		};
-		0A6F2FC42D50D2C200E16E4B /* TestOctyUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TestOctyUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +85,6 @@
 			children = (
 				0A6F2FA32D50D2C000E16E4B /* TestOcty */,
 				0A6F2FBA2D50D2C200E16E4B /* TestOctyTests */,
-				0A6F2FC42D50D2C200E16E4B /* TestOctyUITests */,
 				0A6F2FA22D50D2C000E16E4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -166,9 +160,6 @@
 			dependencies = (
 				0A6F2FC32D50D2C200E16E4B /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				0A6F2FC42D50D2C200E16E4B /* TestOctyUITests */,
-			);
 			name = TestOctyUITests;
 			packageProductDependencies = (
 			);
@@ -208,6 +199,10 @@
 			);
 			mainGroup = 0A6F2F982D50D2C000E16E4B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0A6F2FD52D50D43C00E16E4B /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				0A6F2FD62D50D48300E16E4B /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0A6F2FA22D50D2C000E16E4B /* Products */;
 			projectDirPath = "";
@@ -569,6 +564,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A6F2FD52D50D43C00E16E4B /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.0;
+			};
+		};
+		0A6F2FD62D50D48300E16E4B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 0A6F2F992D50D2C000E16E4B /* Project object */;
 }
