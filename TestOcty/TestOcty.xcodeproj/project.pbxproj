@@ -6,6 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0A6F2FA52D50D2C000E16E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F2FA42D50D2C000E16E4B /* AppDelegate.swift */; };
+		0A6F2FA72D50D2C000E16E4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F2FA62D50D2C000E16E4B /* SceneDelegate.swift */; };
+		0A6F2FAE2D50D2C200E16E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6F2FAD2D50D2C200E16E4B /* Assets.xcassets */; };
+		0A6F2FB12D50D2C200E16E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6F2FAF2D50D2C200E16E4B /* LaunchScreen.storyboard */; };
+		0A6F2FEC2D50D90000E16E4B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0A6F2FEB2D50D90000E16E4B /* SnapKit */; };
+		0A6F30052D511AB300E16E4B /* UITableUICollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F30032D511AB300E16E4B /* UITableUICollectionCell.swift */; };
+		0A6F30092D511AC100E16E4B /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F30062D511AC100E16E4B /* Designable.swift */; };
+		0A6F300A2D511AC100E16E4B /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F30072D511AC100E16E4B /* Reusable.swift */; };
+		0A6F301A2D511AD300E16E4B /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F30182D511AD300E16E4B /* Currency.swift */; };
+		0A6F30252D511B5900E16E4B /* ListRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F30222D511B5900E16E4B /* ListRatesViewController.swift */; };
+		0A6F30262D511B5900E16E4B /* ListRatesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F301F2D511B5900E16E4B /* ListRatesAssembly.swift */; };
+		0A6F30272D511B5900E16E4B /* ListRatesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F30202D511B5900E16E4B /* ListRatesPresenter.swift */; };
+		0A6F30282D511B5900E16E4B /* ListRatesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F30212D511B5900E16E4B /* ListRatesRouter.swift */; };
+		0A6F302C2D511B6900E16E4B /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F302A2D511B6900E16E4B /* CurrencyTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0A6F2FB82D50D2C200E16E4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -25,29 +42,25 @@
 
 /* Begin PBXFileReference section */
 		0A6F2FA12D50D2C000E16E4B /* TestOcty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOcty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6F2FA42D50D2C000E16E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A6F2FA62D50D2C000E16E4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0A6F2FAD2D50D2C200E16E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A6F2FB02D50D2C200E16E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A6F2FB22D50D2C200E16E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A6F2FB72D50D2C200E16E4B /* TestOctyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOctyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6F2FC12D50D2C200E16E4B /* TestOctyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOctyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6F30032D511AB300E16E4B /* UITableUICollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableUICollectionCell.swift; sourceTree = "<group>"; };
+		0A6F30062D511AC100E16E4B /* Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
+		0A6F30072D511AC100E16E4B /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		0A6F30182D511AD300E16E4B /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		0A6F301F2D511B5900E16E4B /* ListRatesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRatesAssembly.swift; sourceTree = "<group>"; };
+		0A6F30202D511B5900E16E4B /* ListRatesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRatesPresenter.swift; sourceTree = "<group>"; };
+		0A6F30212D511B5900E16E4B /* ListRatesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRatesRouter.swift; sourceTree = "<group>"; };
+		0A6F30222D511B5900E16E4B /* ListRatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRatesViewController.swift; sourceTree = "<group>"; };
+		0A6F302A2D511B6900E16E4B /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		0A6F2FC92D50D2C200E16E4B /* Exceptions for "TestOcty" folder in "TestOcty" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 0A6F2FA02D50D2C000E16E4B /* TestOcty */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0A6F2FA32D50D2C000E16E4B /* TestOcty */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				0A6F2FC92D50D2C200E16E4B /* Exceptions for "TestOcty" folder in "TestOcty" target */,
-			);
-			path = TestOcty;
-			sourceTree = "<group>";
-		};
 		0A6F2FBA2D50D2C200E16E4B /* TestOctyTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TestOctyTests;
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6F2FEC2D50D90000E16E4B /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +97,9 @@
 		0A6F2F982D50D2C000E16E4B = {
 			isa = PBXGroup;
 			children = (
-				0A6F2FA32D50D2C000E16E4B /* TestOcty */,
-				0A6F2FBA2D50D2C200E16E4B /* TestOctyTests */,
+				0A6F30022D511A9600E16E4B /* TestOcty */,
 				0A6F2FA22D50D2C000E16E4B /* Products */,
+				0A6F2FBA2D50D2C200E16E4B /* TestOctyTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +111,75 @@
 				0A6F2FC12D50D2C200E16E4B /* TestOctyUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0A6F30022D511A9600E16E4B /* TestOcty */ = {
+			isa = PBXGroup;
+			children = (
+				0A6F2FA62D50D2C000E16E4B /* SceneDelegate.swift */,
+				0A6F2FAF2D50D2C200E16E4B /* LaunchScreen.storyboard */,
+				0A6F2FB22D50D2C200E16E4B /* Info.plist */,
+				0A6F2FAD2D50D2C200E16E4B /* Assets.xcassets */,
+				0A6F2FA42D50D2C000E16E4B /* AppDelegate.swift */,
+				0A6F301B2D511B4300E16E4B /* Models */,
+				0A6F301C2D511B5300E16E4B /* Flow */,
+				0A6F302E2D511B8C00E16E4B /* Protocols */,
+				0A6F302F2D511B9B00E16E4B /* Extension */,
+			);
+			path = TestOcty;
+			sourceTree = "<group>";
+		};
+		0A6F301B2D511B4300E16E4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A6F30182D511AD300E16E4B /* Currency.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A6F301C2D511B5300E16E4B /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				0A6F30292D511B5F00E16E4B /* ListRatesModule */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		0A6F30292D511B5F00E16E4B /* ListRatesModule */ = {
+			isa = PBXGroup;
+			children = (
+				0A6F301F2D511B5900E16E4B /* ListRatesAssembly.swift */,
+				0A6F30202D511B5900E16E4B /* ListRatesPresenter.swift */,
+				0A6F30212D511B5900E16E4B /* ListRatesRouter.swift */,
+				0A6F30222D511B5900E16E4B /* ListRatesViewController.swift */,
+				0A6F302D2D511B7B00E16E4B /* Cell */,
+			);
+			path = ListRatesModule;
+			sourceTree = "<group>";
+		};
+		0A6F302D2D511B7B00E16E4B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0A6F302A2D511B6900E16E4B /* CurrencyTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0A6F302E2D511B8C00E16E4B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0A6F30062D511AC100E16E4B /* Designable.swift */,
+				0A6F30072D511AC100E16E4B /* Reusable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0A6F302F2D511B9B00E16E4B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0A6F30032D511AB300E16E4B /* UITableUICollectionCell.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,11 +197,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				0A6F2FA32D50D2C000E16E4B /* TestOcty */,
-			);
 			name = TestOcty;
 			packageProductDependencies = (
+				0A6F2FEB2D50D90000E16E4B /* SnapKit */,
 			);
 			productName = TestOcty;
 			productReference = 0A6F2FA12D50D2C000E16E4B /* TestOcty.app */;
@@ -202,6 +283,7 @@
 			packageReferences = (
 				0A6F2FD52D50D43C00E16E4B /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				0A6F2FD62D50D48300E16E4B /* XCRemoteSwiftPackageReference "realm-swift" */,
+				0A6F2FEA2D50D90000E16E4B /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0A6F2FA22D50D2C000E16E4B /* Products */;
@@ -220,6 +302,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6F2FB12D50D2C200E16E4B /* LaunchScreen.storyboard in Resources */,
+				0A6F2FAE2D50D2C200E16E4B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +328,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6F301A2D511AD300E16E4B /* Currency.swift in Sources */,
+				0A6F30052D511AB300E16E4B /* UITableUICollectionCell.swift in Sources */,
+				0A6F30092D511AC100E16E4B /* Designable.swift in Sources */,
+				0A6F302C2D511B6900E16E4B /* CurrencyTableViewCell.swift in Sources */,
+				0A6F300A2D511AC100E16E4B /* Reusable.swift in Sources */,
+				0A6F30252D511B5900E16E4B /* ListRatesViewController.swift in Sources */,
+				0A6F30262D511B5900E16E4B /* ListRatesAssembly.swift in Sources */,
+				0A6F30272D511B5900E16E4B /* ListRatesPresenter.swift in Sources */,
+				0A6F30282D511B5900E16E4B /* ListRatesRouter.swift in Sources */,
+				0A6F2FA52D50D2C000E16E4B /* AppDelegate.swift in Sources */,
+				0A6F2FA72D50D2C000E16E4B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +370,17 @@
 			targetProxy = 0A6F2FC22D50D2C200E16E4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A6F2FAF2D50D2C200E16E4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A6F2FB02D50D2C200E16E4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0A6F2FCB2D50D2C200E16E4B /* Debug */ = {
@@ -582,7 +688,23 @@
 				kind = branch;
 			};
 		};
+		0A6F2FEA2D50D90000E16E4B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A6F2FEB2D50D90000E16E4B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A6F2FEA2D50D90000E16E4B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0A6F2F992D50D2C000E16E4B /* Project object */;
 }
